@@ -1,0 +1,26 @@
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: sans-serif;
+      background: radial-gradient(ellipse at center, #000, #020218);
+      overflow: hidden;
+      color: white;
+    }
+    #menu, #ui {
+      position: absolute;
+      text-align: center;
+    }
+    #menu {
+      top: 50%; left: 50%; transform: translate(-50%, -50%);
+    }
+    #menu h1 { font-size: 3em; margin-bottom: 20px; }
+    #menu button {
+      font-size: 1.5em; padding: 10px 20px;
+      background: #0af; border: none; border-radius: 10px;
+      cursor: pointer; color: white;
+    }
+    #menu button:hover { background: #08c; }
+    #gameCanvas {
+      display: none;
+      background: url('https://www.transparenttextures.com/patterns/stardust.png');
+    }
+    #ui { top: 10px; left: 10px; font-size: 1.2em; }
